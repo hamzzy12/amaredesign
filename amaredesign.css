@@ -59,7 +59,7 @@ html, body {
     gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 0;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
     /* padding-bottom: 15px;
     padding-top: 15px; */
     margin-left: -20px;
@@ -174,7 +174,7 @@ html, body {
 .nav-tabs {
     display: flex;
     gap: 15px;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
     padding-bottom: 15px;
     padding-top: 15px;
     margin-left: -20px;
