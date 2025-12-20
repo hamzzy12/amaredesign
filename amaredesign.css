@@ -416,7 +416,7 @@ html, body {
     .nav-tabs {
         gap: 12px;
         margin-bottom: 18px;
-        padding-bottom: 12px;
+        /* padding-bottom: 12px; */
         padding-top: 12px;
     }
 
