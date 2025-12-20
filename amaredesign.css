@@ -749,7 +749,7 @@ html, body {
     .view-more-btn {
         width: 100%;
         padding: 11px 20px;
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .footer {
@@ -769,7 +769,7 @@ html, body {
     }
 
     .footer-title {
-        font-size: 12px;
+        font-size: 18px;
         margin-bottom: 6px;
     }
 
@@ -777,13 +777,13 @@ html, body {
     .footer-phone,
     .footer-time,
     .footer-description {
-        font-size: 10px;
+        font-size: 14px;
         line-height: 1.6;
         margin-bottom: 6px;
     }
 
     .footer-bottom {
-        font-size: 9px;
+        font-size: 14px;
         padding: 15px 0;
     }
 }
@@ -807,18 +807,18 @@ html, body {
     }
 
     .nav-tab {
-        font-size: 10px;
+        font-size: 18px;
         padding: 0 4px;
     }
 
     .category-btn {
         padding: 9px 10px;
-        font-size: 11px;
+        font-size: 18px;
     }
 
     .view-btn {
         padding: 9px 10px;
-        font-size: 9px;
+        font-size: 18px;
     }
 
     .social-icon {
@@ -846,13 +846,13 @@ html, body {
     }
 
     .footer-title {
-        font-size: 11px;
+        font-size: 16px;
     }
 
     .footer-address,
     .footer-phone,
     .footer-time,
     .footer-description {
-        font-size: 9px;
+        font-size: 16px;
     }
 }
