@@ -18,9 +18,7 @@ html, body {
     width: 100%;
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    position: static;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -84,6 +82,7 @@ html, body {
 }
 
 .category-btn {
+    display: inline-block;
     background-color: transparent;
     border: none;
     padding: 30px 20px;
@@ -92,6 +91,7 @@ html, body {
     transition: all 0.3s ease;
     font-weight: 500;
     color: #1a1a1a;
+    text-decoration: none;
 }
 
 .category-btn.active {
@@ -99,12 +99,16 @@ html, body {
     color: #1a1a1a;
 }
 
-.category-btn:hover {
+.category-btn:hover,
+.category-btn:active {
     background-color: #1a1a1a;
     color: #fff;
 }
 
 .view-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: none;
     border: 1px solid #e0e0e0;
     padding: 10px 12px;
@@ -115,6 +119,7 @@ html, body {
     color: #666;
     flex-shrink: 0;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .view-btn:hover {
@@ -558,6 +563,12 @@ html, body {
         text-align: center;
     }
 
+    .category-btn:hover,
+    .category-btn:active {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+
     .category-btn:nth-child(1) {
         order: 0;
     }
@@ -572,8 +583,8 @@ html, body {
     }
 
     .category-btn.active {
-        background-color: transparent;
-        color: #1a1a1a;
+        /* background-color: transparent;
+        color: #1a1a1a; */
     }
 
     .view-btn {
@@ -581,6 +592,7 @@ html, body {
         margin-top: 0 !important;
         padding: 11px 16px;
         font-size: 18px;
+        justify-content: center;
     }
 
     .social-icons {
@@ -601,8 +613,8 @@ html, body {
     }
 
     .gallery-item {
-        aspect-ratio: auto;
-        height: 380px;
+        aspect-ratio: 4 / 5;
+        height: auto;
     }
 
     .footer-content {
@@ -703,11 +715,18 @@ html, body {
         font-size: 18px;
     }
 
+    .category-btn:hover,
+    .category-btn:active {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+
     .view-btn {
         width: 100%;
         padding: 10px 12px;
         font-size: 18px;
         border: 1px solid #d0d0d0;
+        justify-content: center;
     }
 
     .social-icons {
@@ -732,8 +751,8 @@ html, body {
     }
 
     .gallery-item {
-        aspect-ratio: auto;
-        height: 320px;
+        aspect-ratio: 4 / 5;
+        height: auto;
     }
 
     .main-content {
@@ -816,9 +835,16 @@ html, body {
         font-size: 18px;
     }
 
+    .quote-btn:hover,
+    .quote-btn:active {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+
     .view-btn {
         padding: 9px 10px;
         font-size: 18px;
+        justify-content: center;
     }
 
     .social-icon {
@@ -827,7 +853,8 @@ html, body {
     }
 
     .gallery-item {
-        height: 280px;
+        aspect-ratio: 4 / 5;
+        height: auto;
     }
 
     .main-content {
